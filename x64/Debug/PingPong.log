@@ -1,3 +1,2 @@
 ﻿  Main.cpp
-C:\Projects\C++\PingPong\Main.cpp(74): warning C4715: 'image_sample': not all control paths return a value
   PingPong.vcxproj -> C:\Projects\C++\PingPong\x64\Debug\PingPong.exe

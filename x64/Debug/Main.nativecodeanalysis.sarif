@@ -1,0 +1,1256 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/C++/SDL2-2.26.5/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "SDL_PointInRect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::padding' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::padding"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::nextScreen' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::nextScreen"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::selectedButton' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::selectedButton"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::regularColor' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::regularColor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::regularFontSize' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::regularFontSize"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::highlightedColor' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::highlightedColor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MainMenuState::highlighedFontSize' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 1,
+                  "endLine": 372,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MainMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MainMenuState::highlighedFontSize"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::currentTime' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::currentTime"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::elapsedTicks' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::elapsedTicks"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::ball' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::ball"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::nextScreen' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::nextScreen"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::padding' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::padding"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::newMatch' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::newMatch"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::RIGHT' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::RIGHT"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::intialBallVelocity' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::intialBallVelocity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::BOTTOM' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::BOTTOM"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::TOP' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::TOP"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::LEFT' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::LEFT"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::player' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::player"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::waitingToBegin' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::waitingToBegin"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::actionDelay' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::actionDelay"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::gameTicks' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::gameTicks"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::lastTicks' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::lastTicks"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::enemy' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::enemy"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameplayMenuState::newRound' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+                },
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 1,
+                  "endLine": 421,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GameplayMenuState@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameplayMenuState::newRound"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30143.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0021C1B0 -il C:\\Users\\LUCIAN~1.PUE\\AppData\\Local\\Temp\\_CL_86ebce61ast -typedil -f Main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930143 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\Main.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Projects\\C++\\PingPong -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\dev\\C++\\SDL2-2.26.5\\include -I C:\\dev\\C++\\Visual Leak Detector\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\winrt -I C:\\Projects\\C++\\PingPong\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.16299.0\\winrt -external:I C:\\Projects\\C++\\PingPong\\Include\\um -I C:\\Projects\\C++\\PingPong\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/C++/SDL2-2.26.5/include/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "07fda7c8ec29928124c1ec74b9677c18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Projects/C++/PingPong/Main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "49a23fcc4ac737a069f3ca23e9b8a618"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/visual leak detector/include/vld.h"
+          },
+          "hashes": {
+            "md5": "2c976dbf4eff207258432eb8f58d2a7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/visual leak detector/include/vld_def.h"
+          },
+          "hashes": {
+            "md5": "d033ff2c0c465e2c635c8c2c26a297e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "eb6843d849bb46933cc1ad8a1388b687"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "73c1bd5142748a326a36872375d49404"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "3cb2bb253411ef299edb4657f418fb2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "e44e33ec761f2dae0ad82b25bb9fc91e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "081424cdf235ecfffc3a601eca52d81e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "cc0c3cbaef0b0f2cf66fc1eeb3077c44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "5306317c53e71d669ef2fef25e35cd65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "deaab40834e49c9f8afc9779cd000226"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "d926c73febe9ff02300e65f98737c500"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "1dfb7245a56f42019bf99394cb015fb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "5dc3031a9650bfa4b130803243f43360"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "6d3cebfc940507d46a044cdd2cc440c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "36e9167c328dc9247f9feaf1e070f1df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "624d0bb2cbfa7c2f89f4258f4187c10a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "5194b68264890aa39c80a74bbea76a79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "03f33e7f3e063851229e55cdfd627e95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "be88cbbc01b8e513c0736a7842132221"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "f23af403b4706fb2347458372fa2fdfc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "24fc2b593295b5150eea89194f722778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "c821cc6b0f5eeb07b6836824b792088a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "c400c5411f869cfcf33e85b327fcf28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "a120235f4a3be93365e1322c3fc067a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "854f05a9b183b002b080c26a185f1528"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "ad9bd2ac1f2cfaa98ed1ce3b179f320e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "6c191a21ecef2da2294fc07a2c4d7d64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "fe187125632b15f5b7adbd3216cb4d0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "c6b966c26fcb4333d45b0c02e8b2ad81"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_guid.h"
+          },
+          "hashes": {
+            "md5": "10459da6098b48ce5ff8c9d91a18dea2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "1c9481493325f625230a88817619a978"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "bedaed9d2e13d5911c00233233c33951"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "ee771c1f89361ca714588af307c716c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "385a2737158fce36a918b36ea836316f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "550d2b812767091072cec0a2817042d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "ea73a2efc6f5f1ded6e2f8fa9a4999fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "489137226d0fd9f8aee8b1ae57ffd800"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "md5": "e4ab08331725ed8a8bfe4fb032843ac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "f062a13df928c66d38a74b6791e71b64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "fca67683443768701221dbb8ac345fb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "065a307a180d9ccf7096386880bf6fc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "e27dc0ca3fe404feb023b7645b189a39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "a3f5cc528a04db70ef3fbf6d002c3583"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "abef9600a9212258e80bd8341e307449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "2ecf70f39d4768cbff57335aceb886cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "5fb59315fd15dab416268be303a1cf5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "ef1bbab106a2eb6a38aa4ac0cdde5d92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "6371363a8a9796cd6181f6acef4454bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "c7836a0b7694430f717b8c2cc0698a28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "750e67ffb42b3d49d2529378cc68fbea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "27743d0c9088f037b373bba6e3fa4827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_ttf.h"
+          },
+          "hashes": {
+            "md5": "f97dd9959ea3fbfdd50a0ac49be74830"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "e55464ef9164dd848eb73492c074a3fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/c++/sdl2-2.26.5/include/sdl_mixer.h"
+          },
+          "hashes": {
+            "md5": "6fe45304fa94016ba49611a17944af34"
+          }
+        }
+      ]
+    }
+  ]
+}
